@@ -21,6 +21,12 @@ import java.io.OutputStream;
 public class ClickService extends Service {
 
     private static final String TAG = "ClickService";
+//     private final String screencap="screencap -p /sdcard/a01.png";
+//     private final String key_home="input keyevent 3"; //home键
+//     private final String tap_alipay="input tap 400 300";
+//     private final String tap_ant="input tap 130 500";
+//     private final String swipe="input swipe 500 2000 500 200 50";
+//     private final String tap_friend="input tap 500 1550";
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
